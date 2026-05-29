@@ -14,6 +14,8 @@ The code performs stochastic analysis of surface ground motion for a group of se
 - MATLAB R2019b or later (tested on R2022a)
 - Statistics and Machine Learning Toolbox (required for `sobolset`)
 
+### Repository Structure
+
 ### Installation
 1. Clone the repository:
    ```bash
