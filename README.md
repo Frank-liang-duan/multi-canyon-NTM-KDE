@@ -17,4 +17,4 @@ The code performs stochastic analysis of surface ground motion for a group of se
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/valley-group-pdem.git
+   git clone https://github.com/Frank-liang-duan/multi-canyon-NTM-KDE.git
