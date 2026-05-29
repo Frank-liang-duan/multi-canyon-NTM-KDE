@@ -1,11 +1,11 @@
 # multi-canyon-pdem
 PDEM-based stochastic seismic response analysis of valley groups under SH waves
-![Computational framework](Flowchart.svg)
+
 This repository contains the MATLAB code for the paper  
 **"[Paper Title]"** submitted to *Computers & Geosciences*.  
 It implements the **Probability Density Evolution Method (PDEM)** to quantify the uncertainty of surface ground motion caused by random canyon radii and spacings in a multi‑canyon topography under SH‑wave incidence.
 
-![Computational framework](Fig02.png)
+![Computational framework](Flowchart.svg)
 *Fig. 2: Overall analysis framework coupling stochastic simulation with a deterministic scattering solver.*
 
 ## Authors
