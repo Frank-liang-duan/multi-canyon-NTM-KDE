@@ -1,22 +1,25 @@
-# multi-canyon-pdem
-PDEM-based stochastic seismic response analysis of valley groups under SH waves
+# Stochastic Seismic Response Analysis of Valley Groups Based on Point Estimate and Kernel Density Estimation
 
-This repository contains the MATLAB code for the paper  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This repository contains MATLAB code for the paper  
 **"[Paper Title]"** submitted to *Computers & Geosciences*.  
-It implements the **Probability Density Evolution Method (PDEM)** to quantify the uncertainty of surface ground motion caused by random canyon radii and spacings in a multi‑canyon topography under SH‑wave incidence.
+It implements a stochastic analysis framework that couples **number‑theoretic point selection**, a **deterministic SH‑wave scattering solver**, and **kernel density estimation (KDE)** to quantify the uncertainty of surface ground motion caused by random canyon radii and spacings in a multi‑canyon topography.
 
-![Computational framework](Flowchart.svg)
+> **Note:** Although the ultimate goal is to obtain the probability density function of the response, this method **does not** solve the generalized density evolution equation (GDEE). Instead, it generates representative point sets via low‑discrepancy sequences and assembles the response distribution using adaptive KDE.
+
+![Computational framework](Flowchart.svg)  
 *Fig. 2: Overall analysis framework coupling stochastic simulation with a deterministic scattering solver.*
 
 ## Authors
-- [Your Name] ([email] / ORCID)  
+- [Your Name] ([email] / [ORCID])  
 - [Co‑author names if any]
 
 ## Requirements
-- **MATLAB** R2019b or later (tested on R2022a)
-- **Statistics and Machine Learning Toolbox** (for `sobolset`)
+- MATLAB R2019b or later (tested on R2022a)
+- Statistics and Machine Learning Toolbox (required for `sobolset`)
 
 ## Installation
-1. Clone this repository:
+1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/valley-group-pdem.git
